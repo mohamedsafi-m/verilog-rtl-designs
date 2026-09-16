@@ -1,8 +1,8 @@
 `timescale 1ns / 1ps
-module tb_AND_gate;
+module tb;
 reg A,B;
 wire Y;
-And_gate uut(
+and uut(
 .Y(Y),
 .A(A),
 .B(B));
