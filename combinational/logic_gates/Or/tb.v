@@ -2,7 +2,7 @@
 module tb;
 reg A,B;
 wire Y;
-Or_gate uut(
+or uut(
 .Y(Y),
 .A(A),
 .B(B));
