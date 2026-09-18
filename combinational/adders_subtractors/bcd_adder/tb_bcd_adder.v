@@ -15,6 +15,8 @@
     begin
     $monitor("Time = %0t | A=%d B=%d Cin = %b | S = %b Cout = %b",
     $time, A,B,Cin,S,Cout);
+    end
+    initial begin
     A=4'd0 ; B=4'd9; Cin =0;
     #10;
     A=4'd5 ; B=4'd3; Cin =0;
