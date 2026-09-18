@@ -2,7 +2,7 @@
 module tb;
 reg A,B;
 wire Y;
-xnor uut(
+Xnor uut(
 .Y(Y),
 .A(A),
 .B(B));
