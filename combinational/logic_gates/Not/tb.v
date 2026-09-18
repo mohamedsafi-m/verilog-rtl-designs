@@ -2,7 +2,7 @@
 module tb;
 reg A;
 wire Y;
-not uut(
+Not uut(
 .Y(Y),
 .A(A));
 initial
