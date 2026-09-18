@@ -2,7 +2,7 @@
 module tb;
 reg A;
 wire Y;
-buffer uut(
+Buffer uut(
 .Y(Y),
 .A(A));
 initial
